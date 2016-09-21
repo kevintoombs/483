@@ -1,0 +1,180 @@
+The following output is my program run on glx nodes 2 and 5, using all 8 cores.
+
+[ktoombs@glx2 ~]$ mpiexec -n 8 ./a.out
+All procs sending to 0.
+
+STATS:
+procs: 8
+tests: 22
+itterations: 100,
+max msg size: 4194304bytes
+
+Recieving from rank 1 (1/7)
+Test 1/22 (size: 1 bytes, itterations: 100) took 67 millisec.
+Test 2/22 (size: 2 bytes, itterations: 100) took 11 millisec.
+Test 3/22 (size: 4 bytes, itterations: 100) took 11 millisec.
+Test 4/22 (size: 8 bytes, itterations: 100) took 11 millisec.
+Test 5/22 (size: 16 bytes, itterations: 100) took 11 millisec.
+Test 6/22 (size: 32 bytes, itterations: 100) took 12 millisec.
+Test 7/22 (size: 64 bytes, itterations: 100) took 12 millisec.
+Test 8/22 (size: 128 bytes, itterations: 100) took 13 millisec.
+Test 9/22 (size: 256 bytes, itterations: 100) took 14 millisec.
+Test 10/22 (size: 512 bytes, itterations: 100) took 15 millisec.
+Test 11/22 (size: 1024 bytes, itterations: 100) took 17 millisec.
+Test 12/22 (size: 2048 bytes, itterations: 100) took 51 millisec.
+Test 13/22 (size: 4096 bytes, itterations: 100) took 164 millisec.
+Test 14/22 (size: 8192 bytes, itterations: 100) took 327 millisec.
+Test 15/22 (size: 16384 bytes, itterations: 100) took 698 millisec.
+Test 16/22 (size: 32768 bytes, itterations: 100) took 1397 millisec.
+Test 17/22 (size: 65536 bytes, itterations: 100) took 2764 millisec.
+Test 18/22 (size: 131072 bytes, itterations: 100) took 1339 millisec.
+Test 19/22 (size: 262144 bytes, itterations: 100) took 2277 millisec.
+Test 20/22 (size: 524288 bytes, itterations: 100) took 4606 millisec.
+Test 21/22 (size: 1048576 bytes, itterations: 100) took 9034 millisec.
+end: 1
+Test 22/22 (size: 2097152 bytes, itterations: 100) took 17976 millisec.
+Recieving from rank 2 (2/7)
+Test 1/22 (size: 1 bytes, itterations: 100) took 7 millisec.
+Test 2/22 (size: 2 bytes, itterations: 100) took 6 millisec.
+Test 3/22 (size: 4 bytes, itterations: 100) took 6 millisec.
+Test 4/22 (size: 8 bytes, itterations: 100) took 7 millisec.
+Test 5/22 (size: 16 bytes, itterations: 100) took 8 millisec.
+Test 6/22 (size: 32 bytes, itterations: 100) took 7 millisec.
+Test 7/22 (size: 64 bytes, itterations: 100) took 7 millisec.
+Test 8/22 (size: 128 bytes, itterations: 100) took 8 millisec.
+Test 9/22 (size: 256 bytes, itterations: 100) took 8 millisec.
+Test 10/22 (size: 512 bytes, itterations: 100) took 9 millisec.
+Test 11/22 (size: 1024 bytes, itterations: 100) took 11 millisec.
+Test 12/22 (size: 2048 bytes, itterations: 100) took 12 millisec.
+Test 13/22 (size: 4096 bytes, itterations: 100) took 12 millisec.
+Test 14/22 (size: 8192 bytes, itterations: 100) took 13 millisec.
+Test 15/22 (size: 16384 bytes, itterations: 100) took 14 millisec.
+Test 16/22 (size: 32768 bytes, itterations: 100) took 15 millisec.
+Test 17/22 (size: 65536 bytes, itterations: 100) took 16 millisec.
+Test 18/22 (size: 131072 bytes, itterations: 100) took 1403 millisec.
+Test 19/22 (size: 262144 bytes, itterations: 100) took 2317 millisec.
+Test 20/22 (size: 524288 bytes, itterations: 100) took 4689 millisec.
+Test 21/22 (size: 1048576 bytes, itterations: 100) took 9023 millisec.
+end: 2
+Test 22/22 (size: 2097152 bytes, itterations: 100) took 17985 millisec.
+Recieving from rank 3 (3/7)
+Test 1/22 (size: 1 bytes, itterations: 100) took 7 millisec.
+Test 2/22 (size: 2 bytes, itterations: 100) took 6 millisec.
+Test 3/22 (size: 4 bytes, itterations: 100) took 6 millisec.
+Test 4/22 (size: 8 bytes, itterations: 100) took 7 millisec.
+Test 5/22 (size: 16 bytes, itterations: 100) took 7 millisec.
+Test 6/22 (size: 32 bytes, itterations: 100) took 7 millisec.
+Test 7/22 (size: 64 bytes, itterations: 100) took 7 millisec.
+Test 8/22 (size: 128 bytes, itterations: 100) took 7 millisec.
+Test 9/22 (size: 256 bytes, itterations: 100) took 7 millisec.
+Test 10/22 (size: 512 bytes, itterations: 100) took 7 millisec.
+Test 11/22 (size: 1024 bytes, itterations: 100) took 9 millisec.
+Test 12/22 (size: 2048 bytes, itterations: 100) took 10 millisec.
+Test 13/22 (size: 4096 bytes, itterations: 100) took 10 millisec.
+Test 14/22 (size: 8192 bytes, itterations: 100) took 11 millisec.
+Test 15/22 (size: 16384 bytes, itterations: 100) took 11 millisec.
+Test 16/22 (size: 32768 bytes, itterations: 100) took 12 millisec.
+Test 17/22 (size: 65536 bytes, itterations: 100) took 13 millisec.
+Test 18/22 (size: 131072 bytes, itterations: 100) took 1734 millisec.
+Test 19/22 (size: 262144 bytes, itterations: 100) took 2314 millisec.
+Test 20/22 (size: 524288 bytes, itterations: 100) took 4596 millisec.
+Test 21/22 (size: 1048576 bytes, itterations: 100) took 9008 millisec.
+end: 3
+Test 22/22 (size: 2097152 bytes, itterations: 100) took 17985 millisec.
+Recieving from rank 4 (4/7)
+Test 1/22 (size: 1 bytes, itterations: 100) took 5 millisec.
+Test 2/22 (size: 2 bytes, itterations: 100) took 5 millisec.
+Test 3/22 (size: 4 bytes, itterations: 100) took 5 millisec.
+Test 4/22 (size: 8 bytes, itterations: 100) took 5 millisec.
+Test 5/22 (size: 16 bytes, itterations: 100) took 5 millisec.
+Test 6/22 (size: 32 bytes, itterations: 100) took 5 millisec.
+Test 7/22 (size: 64 bytes, itterations: 100) took 5 millisec.
+Test 8/22 (size: 128 bytes, itterations: 100) took 5 millisec.
+Test 9/22 (size: 256 bytes, itterations: 100) took 5 millisec.
+Test 10/22 (size: 512 bytes, itterations: 100) took 5 millisec.
+Test 11/22 (size: 1024 bytes, itterations: 100) took 6 millisec.
+Test 12/22 (size: 2048 bytes, itterations: 100) took 7 millisec.
+Test 13/22 (size: 4096 bytes, itterations: 100) took 8 millisec.
+Test 14/22 (size: 8192 bytes, itterations: 100) took 8 millisec.
+Test 15/22 (size: 16384 bytes, itterations: 100) took 9 millisec.
+Test 16/22 (size: 32768 bytes, itterations: 100) took 9 millisec.
+Test 17/22 (size: 65536 bytes, itterations: 100) took 10 millisec.
+Test 18/22 (size: 131072 bytes, itterations: 100) took 1929 millisec.
+Test 19/22 (size: 262144 bytes, itterations: 100) took 2460 millisec.
+Test 20/22 (size: 524288 bytes, itterations: 100) took 4523 millisec.
+Test 21/22 (size: 1048576 bytes, itterations: 100) took 8989 millisec.
+end: 4
+Test 22/22 (size: 2097152 bytes, itterations: 100) took 17996 millisec.
+Recieving from rank 5 (5/7)
+Test 1/22 (size: 1 bytes, itterations: 100) took 0 millisec.
+Test 2/22 (size: 2 bytes, itterations: 100) took 0 millisec.
+Test 3/22 (size: 4 bytes, itterations: 100) took 0 millisec.
+Test 4/22 (size: 8 bytes, itterations: 100) took 0 millisec.
+Test 5/22 (size: 16 bytes, itterations: 100) took 0 millisec.
+Test 6/22 (size: 32 bytes, itterations: 100) took 0 millisec.
+Test 7/22 (size: 64 bytes, itterations: 100) took 0 millisec.
+Test 8/22 (size: 128 bytes, itterations: 100) took 0 millisec.
+Test 9/22 (size: 256 bytes, itterations: 100) took 0 millisec.
+Test 10/22 (size: 512 bytes, itterations: 100) took 1 millisec.
+Test 11/22 (size: 1024 bytes, itterations: 100) took 1 millisec.
+Test 12/22 (size: 2048 bytes, itterations: 100) took 1 millisec.
+Test 13/22 (size: 4096 bytes, itterations: 100) took 1 millisec.
+Test 14/22 (size: 8192 bytes, itterations: 100) took 1 millisec.
+Test 15/22 (size: 16384 bytes, itterations: 100) took 2 millisec.
+Test 16/22 (size: 32768 bytes, itterations: 100) took 3 millisec.
+Test 17/22 (size: 65536 bytes, itterations: 100) took 9 millisec.
+Test 18/22 (size: 131072 bytes, itterations: 100) took 10 millisec.
+Test 19/22 (size: 262144 bytes, itterations: 100) took 12 millisec.
+Test 20/22 (size: 524288 bytes, itterations: 100) took 17 millisec.
+Test 21/22 (size: 1048576 bytes, itterations: 100) took 26 millisec.
+Test 22/22 (size: 2097152 bytes, itterations: 100) took 46 millisec.
+Recieving from rank 6 (6/7)
+end: 5
+Test 1/22 (size: 1 bytes, itterations: 100) took 2 millisec.
+Test 2/22 (size: 2 bytes, itterations: 100) took 2 millisec.
+Test 3/22 (size: 4 bytes, itterations: 100) took 2 millisec.
+Test 4/22 (size: 8 bytes, itterations: 100) took 2 millisec.
+Test 5/22 (size: 16 bytes, itterations: 100) took 2 millisec.
+Test 6/22 (size: 32 bytes, itterations: 100) took 2 millisec.
+Test 7/22 (size: 64 bytes, itterations: 100) took 2 millisec.
+Test 8/22 (size: 128 bytes, itterations: 100) took 2 millisec.
+Test 9/22 (size: 256 bytes, itterations: 100) took 2 millisec.
+Test 10/22 (size: 512 bytes, itterations: 100) took 2 millisec.
+Test 11/22 (size: 1024 bytes, itterations: 100) took 2 millisec.
+Test 12/22 (size: 2048 bytes, itterations: 100) took 2 millisec.
+Test 13/22 (size: 4096 bytes, itterations: 100) took 2 millisec.
+Test 14/22 (size: 8192 bytes, itterations: 100) took 2 millisec.
+Test 15/22 (size: 16384 bytes, itterations: 100) took 2 millisec.
+Test 16/22 (size: 32768 bytes, itterations: 100) took 3 millisec.
+Test 17/22 (size: 65536 bytes, itterations: 100) took 9 millisec.
+Test 18/22 (size: 131072 bytes, itterations: 100) took 1439 millisec.
+Test 19/22 (size: 262144 bytes, itterations: 100) took 2375 millisec.
+Test 20/22 (size: 524288 bytes, itterations: 100) took 4632 millisec.
+Test 21/22 (size: 1048576 bytes, itterations: 100) took 9083 millisec.
+end: 6
+Test 22/22 (size: 2097152 bytes, itterations: 100) took 17917 millisec.
+Recieving from rank 7 (7/7)
+Test 1/22 (size: 1 bytes, itterations: 100) took 0 millisec.
+Test 2/22 (size: 2 bytes, itterations: 100) took 0 millisec.
+Test 3/22 (size: 4 bytes, itterations: 100) took 0 millisec.
+Test 4/22 (size: 8 bytes, itterations: 100) took 0 millisec.
+Test 5/22 (size: 16 bytes, itterations: 100) took 0 millisec.
+Test 6/22 (size: 32 bytes, itterations: 100) took 0 millisec.
+Test 7/22 (size: 64 bytes, itterations: 100) took 0 millisec.
+Test 8/22 (size: 128 bytes, itterations: 100) took 0 millisec.
+Test 9/22 (size: 256 bytes, itterations: 100) took 1 millisec.
+Test 10/22 (size: 512 bytes, itterations: 100) took 0 millisec.
+Test 11/22 (size: 1024 bytes, itterations: 100) took 0 millisec.
+Test 12/22 (size: 2048 bytes, itterations: 100) took 0 millisec.
+Test 13/22 (size: 4096 bytes, itterations: 100) took 0 millisec.
+Test 14/22 (size: 8192 bytes, itterations: 100) took 0 millisec.
+Test 15/22 (size: 16384 bytes, itterations: 100) took 0 millisec.
+Test 16/22 (size: 32768 bytes, itterations: 100) took 1 millisec.
+Test 17/22 (size: 65536 bytes, itterations: 100) took 1 millisec.
+Test 18/22 (size: 131072 bytes, itterations: 100) took 2 millisec.
+Test 19/22 (size: 262144 bytes, itterations: 100) took 5 millisec.
+Test 20/22 (size: 524288 bytes, itterations: 100) took 9 millisec.
+Test 21/22 (size: 1048576 bytes, itterations: 100) took 19 millisec.
+Test 22/22 (size: 2097152 bytes, itterations: 100) took 38 millisec.
+end: 0
+end: 7
