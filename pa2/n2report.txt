@@ -1,0 +1,161 @@
+Procs:2 N:4 G:1000
+Rank=0: took 57ms to run (excluding display).
+Rank=0: giving 0ms avg for 1000 gens.
+Rank=0: had 0ms avg for 10 displays.
+Rank=0: took 3ms to init.
+Rank=0: took 57ms to run.
+Rank=0: took 0ms to display.
+Rank=0: took 0ms to swap rows .
+Rank=0: took 3ms to scatter.
+Rank=1: took 57ms to run (excluding display).
+Rank=1: giving 0ms avg for 1000 gens.
+Rank=1: had 0ms avg for 10 displays.
+Rank=1: took 0ms to init.
+Rank=1: took 57ms to run.
+Rank=1: took 0ms to display.
+Rank=1: took 0ms to swap rows .
+Rank=1: took 0ms to scatter.
+
+Procs:2 N:4 G:1000
+Rank=0: took 57ms to run (excluding display).
+Rank=0: giving 0ms avg for 1000 gens.
+Rank=0: had 0ms avg for 10 displays.
+Rank=0: took 3ms to init.
+Rank=0: took 57ms to run.
+Rank=0: took 0ms to display.
+Rank=0: took 0ms to swap rows .
+Rank=0: took 3ms to scatter.
+Rank=1: took 57ms to run (excluding display).
+Rank=1: giving 0ms avg for 1000 gens.
+Rank=1: had 0ms avg for 10 displays.
+Rank=1: took 0ms to init.
+Rank=1: took 57ms to run.
+Rank=1: took 0ms to display.
+Rank=1: took 0ms to swap rows .
+Rank=1: took 0ms to scatter.
+
+Procs:2 N:4 G:1000
+Rank=0: took 57ms to run (excluding display).
+Rank=0: giving 0ms avg for 1000 gens.
+Rank=0: had 0ms avg for 10 displays.
+Rank=0: took 3ms to init.
+Rank=0: took 57ms to run.
+Rank=0: took 0ms to display.
+Rank=0: took 0ms to swap rows .
+Rank=0: took 3ms to scatter.
+Rank=1: took 57ms to run (excluding display).
+Rank=1: giving 0ms avg for 1000 gens.
+Rank=1: had 0ms avg for 10 displays.
+Rank=1: took 0ms to init.
+Rank=1: took 57ms to run.
+Rank=1: took 0ms to display.
+Rank=1: took 0ms to swap rows .
+Rank=1: took 0ms to scatter.
+
+Procs:2 N:32 G:1000
+Rank=0: took 178ms to run (excluding display).
+Rank=0: giving 0ms avg for 1000 gens.
+Rank=0: had 0ms avg for 10 displays.
+Rank=0: took 3ms to init.
+Rank=0: took 183ms to run.
+Rank=0: took 5ms to display.
+Rank=0: took 0ms to swap rows .
+Rank=0: took 3ms to scatter.
+Rank=1: took 182ms to run (excluding display).
+Rank=1: giving 0ms avg for 1000 gens.
+Rank=1: had 0ms avg for 10 displays.
+Rank=1: took 0ms to init.
+Rank=1: took 182ms to run.
+Rank=1: took 0ms to display.
+Rank=1: took 10ms to swap rows .
+Rank=1: took 0ms to scatter.
+
+Procs:2 N:64 G:1000
+Rank=0: took 288ms to run (excluding display).
+Rank=0: giving 0ms avg for 1000 gens.
+Rank=0: had 3ms avg for 10 displays.
+Rank=0: took 3ms to init.
+Rank=0: took 321ms to run.
+Rank=0: took 33ms to display.
+Rank=0: took 0ms to swap rows .
+Rank=0: took 3ms to scatter.
+Rank=1: took 317ms to run (excluding display).
+Rank=1: giving 0ms avg for 1000 gens.
+Rank=1: had 0ms avg for 10 displays.
+Rank=1: took 0ms to init.
+Rank=1: took 317ms to run.
+Rank=1: took 0ms to display.
+Rank=1: took 30ms to swap rows .
+Rank=1: took 0ms to scatter.
+
+Procs:2 N:128 G:1000
+Rank=0: took 720ms to run (excluding display).
+Rank=0: giving 0ms avg for 1000 gens.
+Rank=0: had 13ms avg for 10 displays.
+Rank=0: took 4ms to init.
+Rank=0: took 853ms to run.
+Rank=0: took 133ms to display.
+Rank=0: took 0ms to swap rows .
+Rank=0: took 3ms to scatter.
+Rank=1: took 840ms to run (excluding display).
+Rank=1: giving 0ms avg for 1000 gens.
+Rank=1: had 0ms avg for 10 displays.
+Rank=1: took 1ms to init.
+Rank=1: took 840ms to run.
+Rank=1: took 0ms to display.
+Rank=1: took 123ms to swap rows .
+Rank=1: took 0ms to scatter.
+
+Procs:2 N:256 G:1000
+Rank=0: took 2744ms to run (excluding display).
+Rank=0: giving 2ms avg for 1000 gens.
+Rank=0: had 51ms avg for 10 displays.
+Rank=0: took 4ms to init.
+Rank=0: took 3255ms to run.
+Rank=0: took 511ms to display.
+Rank=0: took 0ms to swap rows .
+Rank=0: took 3ms to scatter.
+Rank=1: took 3208ms to run (excluding display).
+Rank=1: giving 3ms avg for 1000 gens.
+Rank=1: had 0ms avg for 10 displays.
+Rank=1: took 1ms to init.
+Rank=1: took 3208ms to run.
+Rank=1: took 0ms to display.
+Rank=1: took 1473ms to swap rows .
+Rank=1: took 0ms to scatter.
+
+Procs:2 N:512 G:1000
+Rank=0: took 10851ms to run (excluding display).
+Rank=0: giving 10ms avg for 1000 gens.
+Rank=0: had 203ms avg for 10 displays.
+Rank=0: took 6ms to init.
+Rank=0: took 12886ms to run.
+Rank=0: took 2035ms to display.
+Rank=0: took 0ms to swap rows .
+Rank=0: took 3ms to scatter.
+Rank=1: took 12386ms to run (excluding display).
+Rank=1: giving 12ms avg for 1000 gens.
+Rank=1: had 34ms avg for 10 displays.
+Rank=1: took 3ms to init.
+Rank=1: took 12730ms to run.
+Rank=1: took 344ms to display.
+Rank=1: took 6548ms to swap rows .
+Rank=1: took 0ms to scatter.
+
+Procs:2 N:1024 G:1000
+Rank=0: took 43282ms to run (excluding display).
+Rank=0: giving 43ms avg for 1000 gens.
+Rank=0: had 826ms avg for 10 displays.
+Rank=0: took 14ms to init.
+Rank=0: took 51545ms to run.
+Rank=0: took 8263ms to display.
+Rank=0: took 0ms to swap rows .
+Rank=0: took 4ms to scatter.
+Rank=1: took 48928ms to run (excluding display).
+Rank=1: giving 48ms avg for 1000 gens.
+Rank=1: had 204ms avg for 10 displays.
+Rank=1: took 6ms to init.
+Rank=1: took 50969ms to run.
+Rank=1: took 2041ms to display.
+Rank=1: took 26742ms to swap rows .
+Rank=1: took 0ms to scatter.
